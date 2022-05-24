@@ -1,0 +1,81 @@
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #034159;
+}
+
+.inner-wrapper {
+    background-color: #02735E;
+    width: 80%;
+    min-height: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+ol {
+    background-color: #0CF25D;
+    min-height: 60vh;
+    padding-top: 40px;
+
+    padding-inline-start: 40px;
+
+
+
+}
+
+li {
+    color: #013e55;
+    font-size: 1.5rem;
+    text-indent: none;
+    padding: 20px 0;
+
+
+
+
+}
+
+button {
+    background-color: #034159;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid #034159;
+    outline: none;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 5px;
+    width: 60px;
+
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #034159;
+}
+
+#todo {
+    width: 55%;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.addBtn {
+    padding: 10px 10px;
+    margin: 0;
+    width: 100px;
+}
